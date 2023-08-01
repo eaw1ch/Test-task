@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+a:visited {
+  color: white;
+}
+
 body._lock {
   overflow: hidden;
 }
@@ -75,10 +79,6 @@ button:hover {
 .header__menu--point:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-.header__menu--point:visited {
-  color: white;
 }
 
 .header__toggle {
