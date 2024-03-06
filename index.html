@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+        <title>Test</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./assets/Group 75logo.svg" alt="" />
+            <nav class="header__navigation">
+                <ul class="navigate">
+                    <li class="navigate-item">
+                        <a
+                            class="header__menu--point"
+                            data-goto=".page__second-block"
+                            href="#"
+                            >Как это работает</a
+                        >
+                    </li>
+                    <li class="navigate-item">
+                        <a
+                            class="header__menu--point"
+                            data-goto=".page__third-block"
+                            href="#"
+                            >3-й блок</a
+                        >
+                    </li>
+                    <li class="navigate-item">
+                        <a class="header__menu--point" href="#"
+                            >Вопросы и ответы</a
+                        >
+                    </li>
+                    <li class="navigate-item">
+                        <a
+                            class="header__menu--point"
+                            data-goto=".page__fourth-block"
+                            href="#"
+                            >Отзывы</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__toggle"></div>
+        </header>
+        <main>
+            <section class="page__first-block">
+                <div class="page__first-block--background"></div>
+                <div class="page__first-block--main-text">
+                    <h1 class="page__first-block--header">
+                        Говорят, никогда не поздно<br />
+                        сменить профессию
+                    </h1>
+                    <p class="page__first-block--text">
+                        Сделай круто тестовое задание и у тебя получится
+                    </p>
+                    <button class="page__first-block--button">
+                        <b>Проще простого!</b>
+                    </button>
+                </div>
+            </section>
+
+            <section class="page__second-block">
+                <h1 class="page__second-block--header">Как это работает</h1>
+                <div class="page__second-block__info">
+                    <div class="page__second-block__info--element">
+                        <img
+                            class="page__second-block__info--element-img"
+                            src="./assets/waiting.svg"
+                            alt=""
+                        />
+                        <div class="page__second-block__info--text-block">
+                            <h3
+                                class="page__second-block__info--element-header"
+                            >
+                                Прочитай задание внимательно
+                            </h3>
+                            <p class="page__second-block__info--element-text">
+                                Думаю у тебя не займет это больше двух-трех
+                                минут
+                            </p>
+                        </div>
+                    </div>
+                    <div class="page__second-block__info--element">
+                        <img
+                            class="page__second-block__info--element-img"
+                            src="./assets/delivery-truck.svg"
+                            alt=""
+                        />
+                        <div class="page__second-block__info--text-block">
+                            <h3
+                                class="page__second-block__info--element-header"
+                            >
+                                Изучи весь макет заранее
+                            </h3>
+                            <p class="page__second-block__info--element-text">
+                                Подумай как это будет работать на разных
+                                разрешениях и при скролле
+                            </p>
+                        </div>
+                    </div>
+                    <div class="page__second-block__info--element">
+                        <img
+                            class="page__second-block__info--element-img"
+                            src="./assets/secure.svg"
+                            alt=""
+                        />
+                        <div class="page__second-block__info--text-block">
+                            <h3
+                                class="page__second-block__info--element-header"
+                            >
+                                Сделай хорошо
+                            </h3>
+                            <p class="page__second-block__info--element-text">
+                                Чтобы мы могли тебе доверить подобные задачи в
+                                будущем
+                            </p>
+                        </div>
+                    </div>
+                    <div class="page__second-block__info--element">
+                        <img
+                            class="page__second-block__info--element-img"
+                            src="./assets/money-bags.svg"
+                            alt=""
+                        />
+                        <div class="page__second-block__info--text-block">
+                            <h3
+                                class="page__second-block__info--element-header"
+                            >
+                                Получи предложение
+                            </h3>
+                            <p class="page__second-block__info--element-text">
+                                Ну тут все просто, не я придумал правила, но
+                                думаю так и будет)))
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__third-block">
+                <div class="page__third-block--text">
+                    <h2 class="page__third-block--text-header">
+                        Круто, ты дошел до третьего блока
+                    </h2>
+                    <p class="page__third-block--text-secondary">
+                        63% опрошенных пользовались кредитами из-за того, что не
+                        могли покрыть непредвиденные расходы свыше 15 000 ₽.
+                    </p>
+                    <p class="page__third-block--text-secondary">
+                        Доступ к заработанным деньгам помогает отказаться от
+                        кредитов и экономить деньги на процентах и штрафах.
+                    </p>
+                </div>
+                <img
+                    class="page__third-block--img"
+                    src="./assets/Group 253.svg"
+                    alt=""
+                />
+            </section>
+
+            <section class="page__fourth-block">
+                <div class="page__fourth-container">
+                    <h1 class="page__fourth-block--header">Отзывы</h1>
+
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="card-content">
+                                        <div class="card-group">
+                                            <img
+                                                class="card-avatar"
+                                                src="./assets/avatar1.png"
+                                                alt=""
+                                            />
+                                            <div class="card-name">
+                                                Константинов Михаил Павлович
+                                            </div>
+                                            <div class="card-city">
+                                                Санкт-Петербург
+                                            </div>
+                                        </div>
+                                        <p class="card-text">
+                                            Каждый из нас понимает очевидную
+                                            вещь: перспективное планирование
+                                            предоставляет широкие возможности
+                                            для анализа существующих паттернов
+                                            поведения. В своём стремлении
+                                            улучшить пользовательский опыт мы
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="card-content">
+                                        <div class="card-group">
+                                            <img
+                                                class="card-avatar"
+                                                src="./assets/avatar2.png"
+                                                alt=""
+                                            />
+                                            <div class="card-name">
+                                                Иван Иванов
+                                            </div>
+                                            <div class="card-city">
+                                                Санкт-Петербург
+                                            </div>
+                                        </div>
+                                        <p class="card-text">
+                                            Каждый из нас понимает очевидную
+                                            вещь: перспективное планирование
+                                            предоставляет широкие возможности
+                                            для анализа существующих паттернов
+                                            поведения. В своём стремлении
+                                            улучшить пользовательский опыт мы
+                                            упускаем, что активно развивающиеся
+                                            страны третьего мира призваны к
+                                            ответу.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="card-content">
+                                        <div class="card-group">
+                                            <img
+                                                class="card-avatar"
+                                                src="./assets/avatar3.png"
+                                                alt=""
+                                            />
+                                            <div class="card-name">
+                                                Артем Корнилов
+                                            </div>
+                                            <div class="card-city">Самара</div>
+                                        </div>
+                                        <p class="card-text">
+                                            Каждый из нас понимает очевидную
+                                            вещь: перспективное планирование
+                                            предоставляет широкие возможности
+                                            для анализа существующих паттернов
+                                            поведения.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="card-content">
+                                        <div class="card-group">
+                                            <img
+                                                class="card-avatar"
+                                                src="./assets/avatar1.png"
+                                                alt=""
+                                            />
+                                            <div class="card-name">
+                                                Константинов Михаил Павлович
+                                            </div>
+                                            <div class="card-city">
+                                                Санкт-Петербург
+                                            </div>
+                                        </div>
+                                        <p class="card-text">
+                                            Каждый из нас понимает очевидную
+                                            вещь: перспективное планирование
+                                            предоставляет широкие возможности
+                                            для анализа существующих паттернов
+                                            поведения. В своём стремлении
+                                            улучшить пользовательский опыт мы
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="card-content">
+                                        <div class="card-group">
+                                            <img
+                                                class="card-avatar"
+                                                src="./assets/avatar2.png"
+                                                alt=""
+                                            />
+                                            <div class="card-name">
+                                                Иван Иванов
+                                            </div>
+                                            <div class="card-city">
+                                                Санкт-Петербург
+                                            </div>
+                                        </div>
+                                        <p class="card-text">
+                                            Каждый из нас понимает очевидную
+                                            вещь: перспективное планирование
+                                            предоставляет широкие возможности
+                                            для анализа существующих паттернов
+                                            поведения. В своём стремлении
+                                            улучшить пользовательский опыт мы
+                                            упускаем, что активно развивающиеся
+                                            страны третьего мира призваны к
+                                            ответу.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="card-content">
+                                        <div class="card-group">
+                                            <img
+                                                class="card-avatar"
+                                                src="./assets/avatar3.png"
+                                                alt=""
+                                            />
+                                            <div class="card-name">
+                                                Артем Корнилов
+                                            </div>
+                                            <div class="card-city">Самара</div>
+                                        </div>
+                                        <p class="card-text">
+                                            Каждый из нас понимает очевидную
+                                            вещь: перспективное планирование
+                                            предоставляет широкие возможности
+                                            для анализа существующих паттернов
+                                            поведения.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-navBtn"></div>
+                            <div class="swiper-button-prev swiper-navBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="empty"></div>
+            <hr />
+        </main>
+        <footer>© 2021 Лаборатория интернет</footer>
+    </body>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</html>
