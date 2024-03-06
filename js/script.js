@@ -15,11 +15,11 @@ let swiper = new Swiper('.slide-content', {
             slidesPerView: 1,
             slidesPerGroup: 1,
         },
-        375: {
+        374: {
             slidesPerView: 2,
             slidesPerGroup: 2,
         },
-        768: {
+        767: {
             slidesPerView: 3,
             slidesPerGroup: 3,
         },
